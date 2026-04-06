@@ -1,0 +1,33 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:C:\Users\AGHA\AppData\Local\nvm\v24.12.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Projects\tayyab-ahmed\.npmrc
+5 silly config load:file:C:\Users\AGHA\.npmrc
+6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+7 verbose title npm uninstall pdf-parse
+8 verbose argv "uninstall" "pdf-parse" "--package-lock-only" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Projects\tayyab-ahmed\.npm-cache\_logs\2026-04-06T13_46_40_740Z-
+10 verbose logfile D:\Projects\tayyab-ahmed\.npm-cache\_logs\2026-04-06T13_46_40_740Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ECONNREFUSED
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 http cache https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.2.tgz 0ms (cache hit)
+16 silly tarball no local data for https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.2.tgz. Extracting by manifest.
+17 verbose stack Error: request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.2.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+17 verbose stack     at cacheFetch (C:\Users\AGHA\AppData\Local\nvm\v24.12.0\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+17 verbose stack     at async fetch (C:\Users\AGHA\AppData\Local\nvm\v24.12.0\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+18 error code ENOTCACHED
+19 error request to https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.2.2.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+20 silly unfinished npm timer reify 1775483201221
+21 silly unfinished npm timer reify:loadTrees 1775483201221
+22 silly unfinished npm timer idealTree:buildDeps 1775483201445
+23 silly unfinished npm timer idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi 1775483201449
+24 verbose cwd D:\Projects\tayyab-ahmed
+25 verbose os Windows_NT 10.0.26200
+26 verbose node v24.12.0
+27 verbose npm  v11.6.2
+28 verbose exit 1
+29 verbose code 1
+30 error A complete log of this run can be found in: D:\Projects\tayyab-ahmed\.npm-cache\_logs\2026-04-06T13_46_40_740Z-debug-0.log
