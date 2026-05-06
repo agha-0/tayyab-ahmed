@@ -35,19 +35,20 @@ export const projectItems: ProjectItem[] = [
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     image: "/projects/launchpad-workflows.svg",
     githubUrl: "https://github.com/agha-0",
-    liveUrl: "https://linkspos.com/",
+    liveUrl: "https://reachgin.com/",
     category: ["Platform", "Full Stack"],
   },
   {
-    slug: "cacheo-garage",
-    title: "Cacheo Garage",
-    description: "Production-ready web project with a focus on delivery quality and speed.",
+    slug: "wayfit-co",
+    title: "Wayfit Co",
+    description:
+      "Corporate fitness platform connecting companies to gyms and studios through one subscription.",
     summary:
-      "A deployed application that highlights responsive UI implementation, modern frontend tooling, and the practical engineering discipline required to move from build to launch cleanly.",
-    techStack: ["Next.js", "JavaScript", "Tailwind CSS", "Vercel"],
+      "Worked as the frontend developer on a decoupled platform where a Next.js and TypeScript client consumed a Laravel API backend. Focused on building responsive product interfaces, integrating backend APIs cleanly, and supporting production delivery on AWS EC2 with Nginx, PHP-FPM, and Node.js in the deployment stack.",
+    techStack: ["Next.js", "React", "TypeScript", "Laravel", "AWS EC2"],
     image: "/projects/signal-devops.svg",
     githubUrl: "https://github.com/agha-0",
-    liveUrl: "https://cacheo.vercal.app/",
+    liveUrl: "https://wayfit.vercel.app/",
     category: ["Web App", "Frontend"],
   },
 ];

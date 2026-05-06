@@ -78,7 +78,7 @@ export function ProjectsSection() {
                     </div>
 
                     <div className="flex flex-wrap gap-3">
-                      <a
+                      {/* <a
                         href={project.githubUrl}
                         target="_blank"
                         rel="noreferrer"
@@ -86,7 +86,7 @@ export function ProjectsSection() {
                       >
                         <FaGithub className="size-4" />
                         GitHub
-                      </a>
+                      </a> */}
                       <a
                         href={project.liveUrl}
                         target="_blank"
