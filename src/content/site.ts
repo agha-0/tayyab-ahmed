@@ -5,11 +5,11 @@ export const siteConfig: SiteConfig = {
   brand: "TA",
   title: "Senior Full Stack Developer",
   description:
-    "Senior Full Stack Developer building scalable web applications with React.js, Next.js, Node.js, REST APIs, Tailwind CSS, and modern database systems.",
+    "Senior Full Stack Developer and MERN Stack Developer building scalable React.js, Next.js, Node.js, REST API, MongoDB, PostgreSQL, and cloud-deployed web applications.",
   email: "ahmedtayyab533@gmail.com",
   location: "Lahore, Pakistan",
   timezone: "UTC+05:00",
-  resumeHref: "/cv.pdf",
+  resumeHref: "/Muhammad-Tayyab-Ahmed-Resume-Full-Stack.pdf",
   navItems: [
     { id: "hero", label: "Home", href: "#hero" },
     { id: "skills", label: "Skills", href: "#skills" },

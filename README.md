@@ -35,7 +35,7 @@ Main profile content lives in:
 
 The downloadable resume is served from:
 
-- `public/cv.pdf`
+- `public/Muhammad-Tayyab-Ahmed-Resume-Full-Stack.pdf`
 
 ## Contact Form
 

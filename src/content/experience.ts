@@ -8,13 +8,14 @@ export const experienceItems: ExperienceItem[] = [
     endDate: "Present",
     location: "Lahore, Pakistan",
     description:
-      "Developing and maintaining full stack applications with a focus on scalable delivery, backend performance, and responsive frontend experiences.",
+      "Leading full-cycle architecture and development of scalable React.js, Next.js, and MERN stack applications with secure backend services and cloud deployment ownership.",
     achievements: [
-      "Building secure and high-performance Node.js APIs for production applications.",
-      "Creating responsive interfaces using React, Next.js, and Tailwind CSS.",
-      "Collaborating with cross-functional remote teams to deliver and maintain full stack products.",
+      "Lead a cross-functional engineering team within Agile delivery workflows.",
+      "Architect responsive interfaces with React.js, Next.js, TypeScript, and Tailwind CSS while maintaining SEO and cross-browser compatibility.",
+      "Implement authentication, authorization, REST API integrations, code reviews, Git workflows, and performance optimization for enterprise platforms.",
+      "Manage AWS EC2 Linux deployments with Nginx and PM2, including infrastructure support for FUFA live streaming integrations.",
     ],
-    technologies: ["React.js", "Next.js", "Node.js", "Tailwind CSS", "REST APIs"],
+    technologies: ["React.js", "Next.js", "TypeScript", "Node.js", "REST APIs", "AWS EC2", "Nginx", "PM2"],
   },
   {
     company: "NaskSoft",
@@ -23,11 +24,11 @@ export const experienceItems: ExperienceItem[] = [
     endDate: "Dec 2022",
     location: "Lahore, Pakistan",
     description:
-      "Contributed to web application development, API integration, and product performance improvements in a fast-paced engineering environment.",
+      "Designed and deployed responsive single-page applications, backend APIs, and performance improvements in a fast-paced Agile engineering environment.",
     achievements: [
-      "Designed and developed web applications using React.js.",
-      "Led API development and system integrations for application features.",
-      "Improved application performance and code quality across delivered work.",
+      "Designed dynamic SPAs using React.js, modern JavaScript, reusable components, and modular frontend architecture.",
+      "Authored and maintained Node.js REST APIs, third-party integrations, and secure authentication workflows.",
+      "Improved rendering speed, reduced frontend load times, refactored legacy code, and supported peer code reviews with product and QA teams.",
     ],
     technologies: ["React.js", "Node.js", "Express.js", "REST APIs", "JavaScript"],
   },

@@ -27,9 +27,11 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "React.js", icon: FaReact, proficiency: "Advanced" },
       { name: "Next.js", icon: HiOutlineRocketLaunch, proficiency: "Advanced" },
+      { name: "TypeScript", icon: HiOutlineCodeBracketSquare, proficiency: "Advanced" },
       { name: "JavaScript (ES6+)", icon: HiOutlineCodeBracket, proficiency: "Advanced" },
       { name: "Tailwind CSS", icon: FaWandMagicSparkles, proficiency: "Advanced" },
-      { name: "HTML & CSS", icon: HiOutlineCubeTransparent, proficiency: "Advanced" },
+      { name: "Zustand / Redux Toolkit", icon: HiOutlineCubeTransparent, proficiency: "Advanced" },
+      { name: "React Query", icon: HiOutlineGlobeAlt, proficiency: "Advanced" },
     ],
   },
   {
@@ -38,9 +40,10 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "Node.js", icon: FaNodeJs, proficiency: "Advanced" },
       { name: "Express.js", icon: HiOutlineServerStack, proficiency: "Advanced" },
+      { name: "Nest.js", icon: HiOutlineCodeBracketSquare, proficiency: "Intermediate" },
+      { name: "Fastify", icon: HiOutlineRocketLaunch, proficiency: "Intermediate" },
       { name: "REST API Development", icon: HiOutlineBeaker, proficiency: "Advanced" },
-      { name: "System Integrations", icon: FaServer, proficiency: "Advanced" },
-      { name: "Secure API Delivery", icon: HiOutlineCodeBracketSquare, proficiency: "Advanced" },
+      { name: "Authentication & Authorization", icon: FaServer, proficiency: "Advanced" },
     ],
   },
   {
@@ -57,8 +60,10 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "AWS EC2", icon: FaAws, proficiency: "Intermediate" },
       { name: "Azure", icon: HiOutlineCloud, proficiency: "Intermediate" },
+      { name: "PM2", icon: HiOutlineServerStack, proficiency: "Intermediate" },
+      { name: "Nginx", icon: FaServer, proficiency: "Intermediate" },
       { name: "Git", icon: FaGitAlt, proficiency: "Advanced" },
-      { name: "CI/CD Basics", icon: HiOutlineGlobeAlt, proficiency: "Intermediate" },
+      { name: "CI/CD Pipelines", icon: HiOutlineGlobeAlt, proficiency: "Intermediate" },
     ],
   },
 ];
