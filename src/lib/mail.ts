@@ -14,7 +14,10 @@ interface ContactMailPayload {
 }
 
 function createTransporter() {
-  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env;
+  const SMTP_HOST = process.env.SMTP_HOST?.trim();
+  const SMTP_PORT = process.env.SMTP_PORT?.trim();
+  const SMTP_USER = process.env.SMTP_USER?.trim();
+  const SMTP_PASS = process.env.SMTP_PASS?.replace(/\s+/g, "");
 
   if (!SMTP_HOST || !SMTP_PORT || !SMTP_USER || !SMTP_PASS) {
     return null;
@@ -38,8 +41,8 @@ export async function sendContactEmail({
   attachment,
 }: ContactMailPayload) {
   const transporter = createTransporter();
-  const to = process.env.CONTACT_TO_EMAIL;
-  const from = process.env.CONTACT_FROM_EMAIL ?? process.env.SMTP_USER;
+  const to = process.env.CONTACT_TO_EMAIL?.trim();
+  const from = process.env.CONTACT_FROM_EMAIL?.trim() || process.env.SMTP_USER?.trim();
 
   if (!transporter || !to || !from) {
     throw new Error("Contact email configuration is missing.");
