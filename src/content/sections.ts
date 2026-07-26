@@ -1,6 +1,5 @@
 ﻿import {
   HiOutlineEnvelope,
-  HiOutlineGlobeAlt,
   HiOutlineMapPin,
   HiOutlinePhone,
 } from "react-icons/hi2";
@@ -57,11 +56,6 @@ export const contactContent: ContactContent = {
       icon: HiOutlinePhone,
       label: "Phone",
       value: "+92 305 1234336",
-    },
-    {
-      icon: HiOutlineGlobeAlt,
-      label: "Timezone",
-      value: siteConfig.timezone,
     },
   ],
 };
